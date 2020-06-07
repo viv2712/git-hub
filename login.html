@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>
+DORM HOSTELS
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js" ></script>
+</head>
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBpG0RR-4bI0qmxJWA9GWbYFVLONE2Pouw",
+    authDomain: "dormhostel-81a36.firebaseapp.com",
+    databaseURL: "https://dormhostel-81a36.firebaseio.com",
+    projectId: "dormhostel-81a36",
+    storageBucket: "dormhostel-81a36.appspot.com",
+    messagingSenderId: "65176993650",
+    appId: "1:65176993650:web:0909a0d34f1d6aa9bca7eb",
+    measurementId: "G-2X6T4MPSGM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<center>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media</h2>
+      </div>
+
+      <div class="col">
+        <a href="https://dormhostel-81a36.firebaseapp.com/__/auth/handler" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="https://twitter.com" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="https://www.instagram.com" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google
+        </a>
+      </div>
+</center>
+
+</body>
+</html>
