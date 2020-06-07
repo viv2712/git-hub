@@ -1,0 +1,50 @@
+<!Doctype html>
+<head>
+<title>DORM HOSTEL</title>
+<link rel ="stylesheet" href="style.css"> 
+<script src="script.js"></script>
+</head>
+<body>
+<header>
+<nav role="navigation" aria-label="main-menu">
+<ul class="navbar">
+<button><a href="index.html" >Home</a></button>
+<button><a href="aboutus.html" >AboutUs </a></button>
+<button><a href="index.html">Cities</a></button>
+<button><a href="login.html">Login</a></button>
+</ul>
+</nav>
+<p class="singh">DORM HOSTELS</p>
+</header>
+<body>
+<span>
+<a href="varanasi.html"><img src = "varanasi.jpg" alt = "VARANASI" ></a>
+<a href="delhi.html"><img src = "DELHI.jpg" alt="DELHI"></a>
+<a href="greater noida.html"><img src = "greater noida.jpg" alt="GREATER NOIDA"></a>
+</span>
+<center>
+<div>
+<h1>ABOUT US</h1>
+<p class="color"><i>This pltaform is useful for those who wanted to shift from one place to another<br>
+place either for their studies or for their living purpose this pltaform will be <br>
+useful for finding the hostels in the required cities you wanted to go in india.<br>
+We recently can be able to provide the service in three cities only,I can make sure <br>
+we will provide our services in whole India.</i><br>
+</p> 
+</div>
+</center>
+<footer>
+<center>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com/home.php" class="fa fa-facebook"></a>
+<a href="https://twitter.com" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+<p>Contact Us<br>
+Phone No.:9319428985<br>
+Email id:support@dormhostel.com</p>
+&copy;All copyright reserved since 2020
+</center>
+</footer>
+</body>
+</html>
